@@ -17,6 +17,10 @@
       <%= owner.label :password_confirmation %><br>
       <%= owner.password_field :password_confirmation %>
     </p>
+    <p>
+      <%= account.label :subdomain %><br>
+      <%= account.text_field :subdomain %>
+    </p>
   <% end %>
   <%= account.submit %>
 <% end %>
